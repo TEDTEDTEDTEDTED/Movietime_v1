@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyWalletActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="17dp"
+                android:background="@drawable/abc"
+
+                android:layout_alignParentLeft="true"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignLeft="@+id/imageButton"
+                android:layout_alignStart="@+id/imageButton"
+                android:layout_below="@+id/imageButton"
+                android:layout_marginTop="5dp"
+                android:text="打賞記錄"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp">
+
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/aab" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignLeft="@+id/imageButton"
+                android:layout_alignStart="@+id/imageButton"
+                android:layout_below="@+id/imageButton"
+                android:layout_marginTop="5dp"
+                android:text="餘額"
+
+                android:layout_marginLeft="28dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp">
+
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/aaa"
+                android:layout_alignParentLeft="true"
+                />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignLeft="@+id/imageButton"
+                android:layout_alignStart="@+id/imageButton"
+                android:layout_below="@+id/imageButton"
+                android:layout_marginTop="5dp"
+                android:text="收款記錄"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

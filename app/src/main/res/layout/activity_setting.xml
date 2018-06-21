@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textViewb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="賬號與安全管理"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="通用設定"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/textViewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="消息設置"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/textViewc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="屏蔽設置"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/textViewd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="隱私設置"
+            android:textSize="25dp"/>
+    </LinearLayout>
+</RelativeLayout>
